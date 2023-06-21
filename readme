@@ -1,0 +1,5 @@
+
+
+docker build -t vendas-online-web-react .
+
+docker run -d -p 5173:5173 --name vendas-online-web-react vendas-online-web-react
