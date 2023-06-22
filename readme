@@ -1,5 +1,24 @@
 
+https://www.youtube.com/watch?v=AGYF4BWR4XE&list=PLedVhPP7RyiKOiiGMTMYil3yTEoOxO7CK&index=2
+
+
+https://vitejs.dev/guide/
+
+#Exemplo 
+https://javascript.plainenglish.io/step-by-step-guide-to-dockerize-react-app-created-using-vite-90772423f7fb
 
 docker build -t vendas-online-web-react .
 
 docker run -d -p 5173:5173 --name vendas-online-web-react vendas-online-web-react
+
+docker-compose build
+
+docker-compose up
+
+docker-compose down 
+
+
+Instalação do ESLINT - https://javascript.plainenglish.io/step-by-step-guide-to-dockerize-react-app-created-using-vite-90772423f7fb
+
+npm install --save-dev @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslint-config-prettier eslint-plugin-import eslint-plugin-prettier eslint-plugin-react eslint-plugin-simple-import-sort pre-commit prettier
+
